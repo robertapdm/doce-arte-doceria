@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Karla:wght@300&family=Outfit:wght@400;700&family=Poppins:wght@100;300;400;500&family=Roboto&display=swap');
+
+header{
+    width: 100vw;
+    height: 100px;
+    background-color:#f07c7c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .logo{
+    width: 140px;
+    margin: 0 0 0 60px;
+}
+header nav ul{
+    width: 50vw;
+    height: 16vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 25px 0 0;
+    font-family: "Berkshire Swash", serif;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+header .cartShop{
+    color: #FFFFFF;
+    margin: 0 70px 0 0;
+}

@@ -1,0 +1,109 @@
+main{
+    width: 100vw;
+    height: 49vw;
+    background-color: #F6ABAB;
+    font-family: "Poppins";
+}
+/*Section Principal*/
+main .principal{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+main .principal .texto{
+    max-width: 300px;
+    margin: 50px 0 30px 50px;
+    color: #6b4e5f;
+}
+main .principal .texto h1{
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+main .principal .texto .destaque{
+    color: #dd4848;
+}
+main .principal .botao{
+    width: 300px;
+    height: 40px;
+    margin: 25px 0;
+    background-color: #dd4848;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+main .principal .botao:hover{
+    background-color: #FFFFFF;
+    color: #dd4848;
+}
+main .principal .confeiteira{
+    width: 400px;
+    height: 300px;
+    object-fit: fill;
+    margin: 10px 100px 0 0;
+    border-radius: 20px;
+}
+/*Section Cronometro*/
+main .container{
+    width: 100vw;
+    height: 51vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f07c7c;
+    color: #FFFFFF;
+}
+main .container p{
+    max-width: 350px;
+    margin: 25px;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+}
+main .container .cronometro{
+    padding: 20px 20px;
+    border: 2px solid #f07c7c;
+    border-radius: 10px;
+    background-color: #F6ABAB;
+}
+main .container .cronometro .visor{
+    width: 200px;
+    height: 35px;
+    margin: 0 0 15px 0;
+    border: 1px solid #F6ABAB;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #dd4848;
+    font-size: 19px;
+    text-align: center;
+}
+main .container .botoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+main .container .botoes .inicio{
+    width: 70px;
+}
+main .container .botoes .parar, .zerar{
+    width: 60px;
+}
+main .container .botoes .inicio, .parar, .zerar{
+    background-color: #dd4848;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+main .principal .botao:hover{
+    background-color: #FFFFFF;
+    color: #dd4848;
+}
